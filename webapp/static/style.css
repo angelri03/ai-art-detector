@@ -1,0 +1,49 @@
+body{
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: monospace;
+    color: rgb(180,180,180);
+  
+    }
+h3{
+    font-family: monospace;
+    color: rgb(180,180,180);
+    }
+
+p{
+    font-family: monospace;
+    color: rgb(180,180,180);
+    font-size: 12px;
+}
+
+body{
+    background-color: rgb(25, 34, 46);
+    }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.field{
+  border: 2px;
+  border-style: dashed;
+  border-color: grey;
+  background-size: cover;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-primary{
+  background-color: #99CC99;
+  outline: none;
+}
+
+.btn-primary:hover, btn-primary:active, .btn-primary:visited{
+  background-color: #59AE59;
+  outline: none;
+}
